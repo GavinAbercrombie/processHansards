@@ -30,7 +30,7 @@ stop_words = set(stopwords.words('english'))
 stemmer = PorterStemmer()
 
 # load debate data:
-data = open('../motions_big_agree.csv')
+data = open('motions_policies.csv')
 dataset = csv.reader(data)
 
 # get all labels onto motions:
