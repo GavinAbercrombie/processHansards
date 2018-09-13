@@ -2,7 +2,7 @@
 
 Contains the following python scripts:
 
-get_Hansards.py:
+twfy_file_getter.py:
 Code for getting and processing Hansard House of Commons parliamentary debate data
 Downloads xml files from theyworkforyou.com
 
