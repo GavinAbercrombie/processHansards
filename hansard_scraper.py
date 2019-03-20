@@ -22,6 +22,7 @@ cal = calendar.Calendar()
 # TODO:
 # should Questions be included? They are in class="Question", at least from 2006
 # should we ignore text in square brackets? this is not spoken
+# deal with ascii characters (\u2014\)
 
 site = 'https://hansard.parliament.uk/html/commons/'
 
