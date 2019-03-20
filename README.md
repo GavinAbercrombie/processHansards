@@ -9,4 +9,5 @@ Downloads xml files from theyworkforyou.com
 policy_classify.py:
 Multilabel classification of House of Commons debate motions
 
-
+hansard_scraper.py:
+Gets all spoken utterances from the Hansard record between specified years 
