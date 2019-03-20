@@ -59,5 +59,5 @@ for y in range(1802, 2020): # specify required date range here
 						if len(utterance.text.split()) > 0: # check that text is not empty which throws error
 							if utterance.text.split()[0] not in ignore: # ignore dates
 								year_dict[date].append(utterance.text)
-	with open('../hansard_jsons/hansardCommons' + year + '.json', 'w') as jsonfile:
+	with open('hansardCommons' + year + '.json', 'w') as jsonfile:
 		json.dump(year_dict, jsonfile)
