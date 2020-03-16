@@ -10,7 +10,7 @@ Downloads xml files from theyworkforyou.com
 
 To run:
 
-python getTWFY.py <YYYYMMDD> <YYYYMMDD> <outputF-file_path>
+python getTWFY.py <YYYYMMDD> <YYYYMMDD> <output_file_path>
 
 with your required start and end dates (inclusive) included in the above format, and an optional output file path. 
 
