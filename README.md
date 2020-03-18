@@ -20,6 +20,11 @@ To run:
 
 `python processTWFY.py`
 
+You will need to alter the code to reflect:
+1. Your path to the `new_people.json` file (line 42)
+2. Your path to the xml files downloaded from TheyWorkForYou (line 57)
+3. Your output file name and path (line 290)
+
 ## policy_classify.py:
 Multilabel classification of House of Commons debate motions
 
