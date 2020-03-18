@@ -25,8 +25,7 @@ You will need to alter the code to reflect:
 2. Line 57: Your path to the xml files downloaded from TheyWorkForYou
 3. Line 290: Your output file name and path
 
-## policy_classify.py:
-Multilabel classification of House of Commons debate motions
 
 ## hansard_scraper.py:
+
 Gets all spoken utterances from the Hansard record between specified years 
