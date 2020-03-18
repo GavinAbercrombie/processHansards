@@ -5,7 +5,8 @@ For obtaining and processing transcripts from UK parliamentary debates.
 Contains the following python scripts:
 
 ## getTWFY.py:
-Code for getting and processing Hansard House of Commons parliamentary debate data
+Code for getting Hansard House of Commons parliamentary debate data.
+
 Downloads xml files from [TheyWorkForYou](https://www.theyworkforyou.com/)
 
 To run:
@@ -16,9 +17,17 @@ with your required start and end dates (inclusive) included in the above format,
 
 ## processTWFYfiles.py
 
+Process the files obtained with getTWFY.py
+
+Outputs a `csv` file with the following fields:
+
+`debate id, motion speaker id, motion speaker name, motion speaker party, debate title, motion text, speaker id, speaker name, speaker party, vote, utterance 1, utterance 2, ..., utterance n`
+
+Obtains debates with *exactly* one motion and one division.
+
 To run:
 
-`python processTWFY.py`
+`python processTWFYfiles.py`
 
 You will need to alter the code to reflect:
 1. Line 42: Your path to the `new_people.json` file  (located in this repository in the `data` folder)
@@ -28,7 +37,7 @@ You will need to alter the code to reflect:
 
 ## hansard_scraper.py:
 
-Gets all spoken utterances from the Hansard record (at [https://hansard.parliament.uk]) between specified years (line 31)
+Gets all spoken utterances from the Hansard record (at [https://hansard.parliament.uk]) between specified years (line 31).
 
 To run:
 
