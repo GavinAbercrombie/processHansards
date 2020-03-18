@@ -28,4 +28,9 @@ You will need to alter the code to reflect:
 
 ## hansard_scraper.py:
 
-Gets all spoken utterances from the Hansard record between specified years 
+Gets all spoken utterances from the Hansard record (at [https://hansard.parliament.uk]) between specified years (line 31)
+
+To run:
+
+`python hansard_scraper.py`
+
