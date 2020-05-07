@@ -30,7 +30,7 @@ debate_enders = ['That the Question be now put.', 'Question put,', 'Question put
 
 # The following non-speech items are removed:
 non_speech = ['rose–', 'rose —', 'rose—', 'rose', 'rose——', 'rose— ', ' rose—', ' rose —', 'rose - ', 'r ose—', ' rose -', 
-	      'Several hon. Members rose—', 'Members rose—',
+	      'Several hon. Members rose—', 'Members rose—', 'claimed to move the closure.',
 			  'indicated dissent.', 'indicated assent.']
 
 # ID and dates-in-office of Speakers:
