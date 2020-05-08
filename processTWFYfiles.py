@@ -29,9 +29,9 @@ debate_enders = ['That the Question be now put.', 'Question put,', 'Question put
 				 'Question again proposed'] 
 
 # The following non-speech items are removed:
-non_speech = ['rose–', 'rose —', 'rose—', 'rose', 'rose——', 'rose— ', ' rose—', ' rose —', 'rose - ', 'r ose—', ' rose -', 
-	      'Several hon. Members rose—', 'Members rose—', 'claimed to move the closure.',
-			  'indicated dissent.', 'indicated assent.']
+non_speech = ['rose–', 'rose —', 'rose—', 'rose', 'rose——', 'rose— ', ' rose—', ' rose —', 'rose - ', 'r ose—', ' rose -', ' rose-',
+	      'Several hon. Members rose—', 'Members rose—', 'claimed to move the closure .',
+	      'rose in his place and claimed to move, ', 'I beg to move that the question be now put-', 'indicated dissent.', 'indicated assent.']
 
 # ID and dates-in-office of Speakers:
 speakers = {'10040': [20090622, 20191031, 'Bercow, John'], '10295': [20100608, 20191231, 'Hoyle, Lindsay'], '10348': [20131016, 20191231, 'Laing, Eleanor'], 
